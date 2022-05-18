@@ -1,0 +1,27 @@
+html, body {
+    background: url(../Proekt/img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Bahnschrift;
+    }
+.box{
+    max-width: 1300px; 
+    margin: auto; 
+    min-height: 100%; 
+    padding: 0px 15px;
+    background-color: white;
+    padding: 40px;
+    font-size: 20px;
+    border: 2px solid #000000;
+    
+}
+.spisok{border: 2px;
+    margin: 15px;}
+.container {display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    
+    }
+.right{float: right;}
