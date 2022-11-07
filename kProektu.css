@@ -25,4 +25,7 @@ html, body {
     
     }
 .right{float: right;}
-.img{ objekt fit: cover}
+.img{ objekt fit: cover;
+   height: 100%;
+    width: 100%;}
+
