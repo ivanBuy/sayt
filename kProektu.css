@@ -7,7 +7,7 @@ html, body {
     font-family: Bahnschrift;
     }
 .box{
-    max-width: 100%; 
+    max-width: 2000px; 
     margin: auto; 
     min-height: 100%; 
     padding: 0px 15px;
