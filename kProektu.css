@@ -1,31 +1,42 @@
+.info
+    {font-size:20px ;
+    border: 2px solid #000000;
+    margin-top: 20px;  
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color:#FFFFFF ;}
+.title
+    {border: 2px solid #000000;
+    margin-left: 40px; margin-right: 1550px; padding-left: 15px;
+    background-color: #FFFFFF;}
+html, body
+    {height: 100%;}
+.conteiner
+    {max-width: 1300px; 
+    margin: auto; 
+    min-height: 100%; 
+    padding: 0px 15px;}
+.footer 
+    {font-size: 19px;
+    height: 100px; 
+    background-color: #36393F; 
+    padding-top:40px; padding-left: 50px; 
+    border-top: 5px solid #ffffff;}
+a 
+    {color: #FFFFFF; }
 html, body {
-    background: url(img/back.png);
+    background: url(../Proekt/img/background.jpg);
+    color: #000000;
+    font-family: Bahnschrift;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    font-family: Bahnschrift;
-    }
-.box{
-    max-width: 1300px; 
-    margin: 100%; 
-    min-height: 100%; 
-    padding: 0px 15px;
-    background-color: white;
-    padding: 40px;
-    font-size: 20px;
-    border: 2px solid #000000;
-    
+    background-attachment: fixed;}
+.one{
+    margin-left: 40px;
 }
-.spisok{border: 2px;
-    margin: 15px;}
-.container {display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 50px 50px;
-    
-    }
-.right{float: right;}
-.img{ objekt fit: contain;
-   height: 100%;
-    width: 100%;}
-
+.img {
+    min-height: auto;
+    max-width: 10px;
+}
